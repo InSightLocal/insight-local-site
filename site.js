@@ -1,0 +1,1 @@
+const b=document.querySelector('.mobile'),m=document.querySelector('.menu');if(b)b.addEventListener('click',()=>m.classList.toggle('open'));
