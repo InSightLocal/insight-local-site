@@ -1,2 +1,1 @@
-const b=document.querySelector('.mobile'),m=document.querySelector('.menu');
-if(b&&m){b.addEventListener('click',()=>{const open=m.classList.toggle('open');b.setAttribute('aria-expanded',open?'true':'false');b.textContent=open?'×':'☰';});}
+(()=>{if(!document.querySelector('link[href="premium.css"]')){const l=document.createElement('link');l.rel='stylesheet';l.href='premium.css';document.head.appendChild(l);}const b=document.querySelector('.mobile'),m=document.querySelector('.menu');if(b&&m){b.addEventListener('click',()=>{const open=m.classList.toggle('open');b.setAttribute('aria-expanded',open?'true':'false');b.textContent=open?'×':'☰';});}})();
