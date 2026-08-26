@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://insightlocal.fr/</loc></url>
-<url><loc>https://insightlocal.fr/services.html</loc></url>
-<url><loc>https://insightlocal.fr/methode.html</loc></url>
-<url><loc>https://insightlocal.fr/a-propos.html</loc></url>
-<url><loc>https://insightlocal.fr/contact.html</loc></url>
+  <url><loc>https://insightlocal.github.io/insight-local-site/</loc></url>
+  <url><loc>https://insightlocal.github.io/insight-local-site/services.html</loc></url>
+  <url><loc>https://insightlocal.github.io/insight-local-site/collecte-terrain.html</loc></url>
+  <url><loc>https://insightlocal.github.io/insight-local-site/audits-commerciaux.html</loc></url>
+  <url><loc>https://insightlocal.github.io/insight-local-site/etudes-marche.html</loc></url>
+  <url><loc>https://insightlocal.github.io/insight-local-site/e-reputation.html</loc></url>
+  <url><loc>https://insightlocal.github.io/insight-local-site/methode.html</loc></url>
+  <url><loc>https://insightlocal.github.io/insight-local-site/secteurs.html</loc></url>
+  <url><loc>https://insightlocal.github.io/insight-local-site/missions.html</loc></url>
+  <url><loc>https://insightlocal.github.io/insight-local-site/a-propos.html</loc></url>
+  <url><loc>https://insightlocal.github.io/insight-local-site/contact.html</loc></url>
+  <url><loc>https://insightlocal.github.io/insight-local-site/mentions-legales.html</loc></url>
+  <url><loc>https://insightlocal.github.io/insight-local-site/confidentialite.html</loc></url>
 </urlset>
