@@ -1,1 +1,2 @@
 Déclenchement volontaire d’un nouveau déploiement GitHub Pages pour publier les dernières modifications Net Elo.
+Nouvelle tentative : 26 août 2026 à 17:54 (heure locale).
