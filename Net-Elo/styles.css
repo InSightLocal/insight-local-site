@@ -18,3 +18,36 @@
   .cookie-actions{width:100%}
   .cookie-actions .btn{flex:1}
 }
+
+.page-hero{padding:72px 0 50px;background:linear-gradient(120deg,#fff 0%,#fff 55%,#f7eee5 100%);border-bottom:1px solid var(--line)}
+.page-hero-inner{max-width:900px}
+.page-hero h1{font-size:clamp(2.6rem,5vw,4.7rem);margin-bottom:.25em}
+.page-intro{max-width:760px}
+.two-col{display:grid;grid-template-columns:1.15fr .85fr;gap:34px;align-items:start}
+.info-panel{background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:var(--shadow)}
+.info-panel h3{margin-top:0}
+.info-panel p:last-child{margin-bottom:0}
+.feature-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:30px}
+.feature{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:0 10px 25px rgba(85,35,28,.05)}
+.feature p{color:var(--muted);font-size:.92rem}
+.text-link{display:inline-block;margin-top:8px;color:var(--wine);font-weight:800}
+.text-link:hover{text-decoration:underline}
+.plain-list{padding-left:1.15rem}
+.plain-list li{margin:.55rem 0}
+.faq-list{max-width:900px}
+.faq-list details{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px 20px;margin:12px 0;box-shadow:0 8px 22px rgba(85,35,28,.04)}
+.faq-list summary{cursor:pointer;color:var(--wine);font-family:Georgia,"Times New Roman",serif;font-weight:700;font-size:1.18rem}
+.faq-list p{color:var(--muted)}
+.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.contact-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:26px;box-shadow:var(--shadow)}
+.contact-card h2{font-size:1.65rem;margin-top:0}
+.contact-card a{color:var(--wine);font-weight:800}
+.light-btn{background:#fff!important;color:var(--wine)!important;border-color:#fff!important}
+@media(max-width:950px){
+  .feature-grid{grid-template-columns:1fr 1fr}
+  .two-col,.contact-grid{grid-template-columns:1fr}
+}
+@media(max-width:620px){
+  .feature-grid{grid-template-columns:1fr}
+  .page-hero{padding:48px 0 34px}
+}
