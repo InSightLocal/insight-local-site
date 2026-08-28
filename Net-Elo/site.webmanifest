@@ -8,9 +8,9 @@
   "theme_color": "#701116",
   "icons": [
     {
-      "src": "logo-net-elo.jpg",
+      "src": "/logo-net-elo.svg",
       "sizes": "any",
-      "type": "image/jpeg",
+      "type": "image/svg+xml",
       "purpose": "any"
     }
   ]
