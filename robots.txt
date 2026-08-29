@@ -1,3 +1,2 @@
 User-agent: *
-Allow: /
-Sitemap: https://insightlocal.github.io/insight-local-site/sitemap.xml
+Disallow: /
