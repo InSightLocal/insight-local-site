@@ -44,3 +44,36 @@ nav a.button[aria-current="page"]{background:var(--deep);color:#fff;border-color
 
 /* Espace réservé pour la barre d'accueil mobile iOS. */
 @supports (padding-bottom: env(safe-area-inset-bottom)){.contact-dock{padding-bottom:env(safe-area-inset-bottom)}body{padding-bottom:calc(82px + env(safe-area-inset-bottom))}}
+
+/* 2026-11-08 : confort mobile et parcours des donneurs d’ordre. */
+:root{color-scheme:light}
+html{-webkit-text-size-adjust:100%}
+:target{scroll-margin-top:120px}
+a,button,input,select,textarea,summary{touch-action:manipulation}
+.related-section{border-top:1px solid var(--line)}
+.related-intro{max-width:770px}
+.related-grid,.path-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:26px 0 8px}
+.related-grid a{display:flex;flex-direction:column;gap:8px;min-height:128px;padding:23px;background:#fff;border:1px solid var(--line);border-top:3px solid var(--gold);transition:box-shadow .2s,border-color .2s,transform .2s}
+.related-grid a:hover{box-shadow:0 9px 28px #30292a12;border-color:var(--gold);transform:translateY(-2px)}
+.related-grid strong{font-size:18px;line-height:1.35}
+.related-grid span{font-size:14px;color:var(--muted)}
+.path-grid{list-style:none;padding:0;margin-top:20px}
+.path-grid li{padding:26px;background:#fff;border:1px solid var(--line);border-top:3px solid var(--gold)}
+.path-grid h3{font-size:22px}
+.path-grid p{font-size:15px;margin-top:10px}
+.path-number{display:block;color:var(--wine);font-size:13px;font-weight:700;letter-spacing:.15em;margin-bottom:15px}
+.path-actions{display:flex;align-items:center;flex-wrap:wrap;gap:16px;margin-top:28px}
+.path-actions .text-link{font-size:14px}
+.faq-list summary:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+@media(max-width:800px){
+.related-grid,.path-grid{grid-template-columns:1fr}
+.related-grid a{min-height:auto;padding:20px}
+.path-grid li{padding:21px}
+nav#navigation>a{min-height:44px;display:flex;align-items:center}
+}
+@media(max-width:600px){
+.path-actions{align-items:stretch;flex-direction:column;gap:10px}
+.path-actions .button{width:100%}
+.related-section .related-grid{gap:12px}
+}
+@media(prefers-reduced-motion:reduce){.related-grid a:hover{transform:none}}
