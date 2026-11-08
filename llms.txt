@@ -1,28 +1,39 @@
 # InSight Local
 
-> InSight Local est l’activité indépendante de Jérôme Massin E.I., basée à Clermont dans l’Oise, en France. Elle propose la collecte de données terrain, les audits commerciaux et les enquêtes selon un protocole convenu.
+> Activité professionnelle indépendante de Jérôme Massin EI, située à Clermont dans l’Oise, spécialisée dans les audits commerciaux, les relevés et les enquêtes terrain.
 
-## Informations de référence
+## Informations fiables
 
 - Site officiel : https://insight-local.fr/
-- Téléphone professionnel : +33 6 79 88 55 01
-- E-mail professionnel : insight.local@icloud.com
-- La zone d’intervention et la faisabilité sont étudiées selon chaque mission.
-- Le suivi d’e-réputation et la publication de contenus sont réservés aux projets déjà accompagnés.
-- Les exemples de missions du site sont illustratifs et ne constituent pas des références clients.
+- Identité légale : Jérôme Massin, entrepreneur individuel (EI)
+- SIREN : 532 694 536 ; SIRET : 532 694 536 00030
+- Zone de départ : Clermont, Oise. Autres secteurs étudiés selon chaque mission.
+- Téléphone : +33 6 79 88 55 01
+- E-mail : insight.local@icloud.com
+- Les exemples de mission sont anonymisés ou pédagogiques. Aucun rapport client confidentiel ni résultat chiffré n’est publié comme preuve originale.
+- Le formulaire de contact ouvre la messagerie du visiteur, sans stockage côté site.
 
-## Pages principales
+## Prestations
 
-- [Jérôme Massin | InSight Local](https://insight-local.fr/a-propos.html)
-- [Audits commerciaux | InSight Local](https://insight-local.fr/audits-commerciaux.html)
-- [Collecte terrain | InSight Local](https://insight-local.fr/collecte-terrain.html)
-- [Confidentialité | InSight Local](https://insight-local.fr/confidentialite.html)
-- [Contact | InSight Local](https://insight-local.fr/contact.html)
-- [E-réputation | InSight Local](https://insight-local.fr/e-reputation.html)
-- [Études & enquêtes | InSight Local](https://insight-local.fr/etudes-marche.html)
-- [Collecte terrain & audits commerciaux | InSight Local](https://insight-local.fr/)
-- [Mentions légales | InSight Local](https://insight-local.fr/mentions-legales.html)
-- [Méthode | InSight Local](https://insight-local.fr/methode.html)
-- [Exemples de missions | InSight Local](https://insight-local.fr/missions.html)
-- [Secteurs | InSight Local](https://insight-local.fr/secteurs.html)
-- [Expertises | InSight Local](https://insight-local.fr/services.html)
+- [Expertises](https://insight-local.fr/services.html)
+- [Audits commerciaux et visites mystère](https://insight-local.fr/audits-commerciaux.html)
+- [Collecte terrain et relevés en magasin](https://insight-local.fr/collecte-terrain.html)
+- [Enquêtes et études de marché](https://insight-local.fr/etudes-marche.html)
+- [Suivi de l’e-réputation pour projets accompagnés](https://insight-local.fr/e-reputation.html)
+
+## Méthode, preuves et contact
+
+- [Exemples de missions et livrables](https://insight-local.fr/missions.html)
+- [Méthode et traçabilité](https://insight-local.fr/methode.html)
+- [Secteurs d’intervention](https://insight-local.fr/secteurs.html)
+- [À propos](https://insight-local.fr/a-propos.html)
+- [Questions fréquentes](https://insight-local.fr/faq.html)
+- [Contact](https://insight-local.fr/contact.html)
+- [Mentions légales](https://insight-local.fr/mentions-legales.html)
+- [Politique de confidentialité](https://insight-local.fr/confidentialite.html)
+
+## Précautions d’interprétation
+
+- Les textes ne démontrent pas une certification ou une affiliation contractuelle à une enseigne.
+- Les exemples sont reformulés pour préserver les engagements de confidentialité.
+- Les disponibilités, tarifs et zones de mission ne sont pas garantis sans accord préalable.
