@@ -1,2 +1,5 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /Net-Elo/
+
+Sitemap: https://insight-local.fr/sitemap.xml
