@@ -10,7 +10,7 @@ body{padding-bottom:72px}.contact-dock{position:fixed;bottom:0;left:0;right:0;z-
 
 /* 2026-11-08 — accessibilité et usages mobiles */
 button,input,select,textarea{font:inherit}
-.contact-dock .dock-icon{display:inline-block;font-size:20px;line-height:1;aria-hidden:true}
+.contact-dock .dock-icon{display:inline-block;font-size:20px;line-height:1}
 .contact-dock .dock-link{display:inline-flex;align-items:center;gap:9px;min-height:44px}
 .contact-dock .dock-link::before{content:none!important}
 .contact-dock .dock-text{font-size:14px}
@@ -41,3 +41,6 @@ nav a.button[aria-current="page"]{background:var(--deep);color:#fff;border-color
   .form-actions .button{width:100%}
 }
 @media print{body{padding-bottom:0}.contact-dock,.menu-toggle{display:none!important}.table-scroll{overflow:visible;border:none}.table-scroll .info-table{min-width:0;width:100%}}
+
+/* Espace réservé pour la barre d'accueil mobile iOS. */
+@supports (padding-bottom: env(safe-area-inset-bottom)){.contact-dock{padding-bottom:env(safe-area-inset-bottom)}body{padding-bottom:calc(82px + env(safe-area-inset-bottom))}}
