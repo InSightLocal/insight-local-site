@@ -1,0 +1,59 @@
+name: IndexNow
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '*.html'
+      - 'sitemap.xml'
+      - 'llms.txt'
+      - '.github/workflows/indexnow.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: insight-local-indexnow-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  notify:
+    if: github.actor != 'github-pages[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+      - name: Notify IndexNow of changed public URLs
+        env:
+          KEY: 7d2b8a4e6c1f9d3a5b7e2c4f8a1d6b9c
+        run: |
+          set -euo pipefail
+          python - <<'PY' > /tmp/payload.json
+          import json, subprocess, os
+          out = subprocess.check_output(['git', 'diff', '--name-only', 'HEAD^', 'HEAD'], text=True).splitlines()
+          excluded = {'404.html', 'confidentialite.html'}
+          urls = []
+          for f in out:
+              if f == 'index.html':
+                  urls.append('https://insight-local.fr/')
+              elif f.endswith('.html') and f not in excluded:
+                  urls.append('https://insight-local.fr/' + f)
+          if 'sitemap.xml' in out:
+              urls.append('https://insight-local.fr/sitemap.xml')
+          urls = list(dict.fromkeys(urls))
+          print(json.dumps({
+              'host': 'insight-local.fr',
+              'key': os.environ['KEY'],
+              'keyLocation': 'https://insight-local.fr/' + os.environ['KEY'] + '.txt',
+              'urlList': urls
+          }))
+          PY
+          if python -c "import json; exit(0 if json.load(open('/tmp/payload.json'))['urlList'] else 1)"; then
+            curl --fail-with-body --retry 2 --max-time 20 --proto '=https' --tlsv1.2 \
+              -H 'Content-Type: application/json; charset=utf-8' \
+              -d @/tmp/payload.json https://api.indexnow.org/indexnow
+          fi
